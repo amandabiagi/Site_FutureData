@@ -1,0 +1,152 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ecf0f1;
+}
+html{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header {
+    top: 0px;
+    background-color: #ecf0f1;
+    width: 100%;
+    position: fixed;
+    height:17vh;   
+}
+
+header ul{
+    list-style-type:none;
+    
+}
+
+header li{
+    float: right;       
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bolder;    
+}
+
+header a{
+    float: left;
+    color:#26a8ff;
+    text-decoration: none;
+    margin-left: 130px;
+    margin-right: 60px;
+    margin-top: 20px;    
+}
+
+
+
+.logo_menu{
+    margin: 10px 0px 0px 40px;
+    position: absolute;
+    width: 100px;
+    z-index: 1;
+}
+/*FIM MENU*/
+
+.cadastro{
+    position: absolute;
+    width:40vw;
+    height: 75vh;
+    left: 0%;
+    top: 110px;
+    border-radius:0px; 
+    border: none;
+    padding: 50px;
+    padding-bottom: 0px;
+    /* box-shadow:3px 3px 15px #26a8ff; */
+    background-color: #26a8ff00;
+    
+       
+}
+/* .cadastro:hover{
+    transition: 2s all linear;
+    box-shadow:1px 1px 10px #faad07;
+} */
+
+.cadastro input{
+    height:40px;
+    border: none;
+    border-bottom: 2px solid #faad07;    
+    background-color: transparent;
+    outline:none;
+    color: #26a8ff;
+    font-size: 20px;   
+ }
+ 
+
+
+::placeholder{
+    color: #2f3031;
+    font-size: 20px;
+        
+}
+.cadastro button{
+    position: relative;
+    left: 10%;
+    width: 400px;
+    height: 30px;
+    border: 12px;
+    background-color:#faad07;
+    outline: none;
+    color: ivory;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+#mensagem{
+    width: 400px;
+    height: 20px;;
+}
+
+/* button{
+    border: 2px #faad07 solid;
+    background-color: transparent;
+    width: 3px;
+    height: 50px;
+    position: relative;
+    right: 10px;
+    border-radius: 12px;
+    color:ivory;
+    font-weight: bolder;
+    font-size: 20px;
+
+} */
+
+#mensagem{
+    color: #2f3031;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    left: 35%;
+}
+
+#cadeado {
+    position: absolute;
+    width: 35px;
+    left: 220px;
+}
+#cadeado2 {
+    position: absolute;
+    width: 35px;
+    left: 220px;
+}
+
+<<<<<<< HEAD
+.imagemfundo{
+    position: absolute;
+    z-index: -1;
+=======
+select{
+    background-color: transparent;
+    color: #26a8ff;
+    height:45px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    border-bottom: #faad07 2px solid;
+>>>>>>> 70b982a47dd8993c0e6dcde88c7f27c1204068cd
+}

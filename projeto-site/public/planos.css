@@ -1,0 +1,173 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ecf0f1;
+}
+html{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.imagemfundo{
+    position: absolute;
+    z-index: -1;
+}
+
+header {
+    top: 0px;
+    background-color: #ecf0f1;
+    width: 100%;
+    position: fixed;
+    height:17vh;   
+}
+
+header ul{
+    list-style-type:none;
+    
+}
+
+header li{
+    float: right;       
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bolder;    
+}
+
+header a{
+    float: left;
+    color:#26a8ff;
+    text-decoration: none;
+    margin-left: 130px;
+    margin-right: 60px;
+    margin-top: 20px;
+    
+}
+header a :hover{    
+    color: #64dfad;
+    transition: 1s linear;
+}
+
+.logo_menu{
+    margin: 10px 0px 0px 40px;
+    position: fixed;
+    width: 100px;
+    z-index: 1;
+    top:0vh;
+    left:1vw;
+}
+
+/*FIM DO MENU*/
+
+
+
+.planos img{
+    width: 22px;
+}
+
+.planos ul{
+    list-style-type:none;
+}
+
+.planos li{
+    position: relative;
+    left:-20px;
+}
+
+.planos button{
+    position: relative;
+    left: 25%;
+    color:#476c75
+}
+
+.planos{
+    font-size: 20px;
+}
+
+
+.planos fieldset{
+    float: left;
+    position: relative;
+    top: 150px;
+    width:300px;
+    height:350px;
+    
+    z-index: -1;
+    margin-left: 80px;    
+}
+
+<<<<<<< HEAD
+
+.campo_basico legend{
+
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+.campo_basico{
+    border: 1.5px #26ff38 solid ;
+    
+}
+
+.campo_medio legend{
+=======
+.avancado button{
+  position: relative;
+  top: 91px;;
+  left: 5%;
+  background-color:#faad07;
+  color: aliceblue;
+  width: 90%;
+  height:40px;
+}
+
+.medio button{
+    position: relative;
+    top: 70px;
+    left: 5%;
+    background-color:#44a1f8 ;
+    color: aliceblue;
+    width: 90%;
+    height:40px;;
+  }
+
+  .basico button{
+    position: relative;
+    top:125px;
+    left: 5%;
+    background-color:#59f844;
+    color: aliceblue;
+    width: 90%;
+    height:40px;
+  }
+
+  button{
+      outline: none;      
+  }
+  .basico button:hover{
+      transition: 0.2s all linear;
+      top: 127px;
+
+  }
+  .medio button:hover{
+    transition: 0.2s all linear;
+    top: 72px;
+>>>>>>> 70b982a47dd8993c0e6dcde88c7f27c1204068cd
+
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+<<<<<<< HEAD
+.campo_medio{
+    border: 1.5px #ffde26 solid ;
+}
+.campo_avancado legend{
+=======
+.avancado button:hover{
+    transition: 0.2s all linear;
+    top: 93px;
+>>>>>>> 70b982a47dd8993c0e6dcde88c7f27c1204068cd
+
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+.campo_avancado{
+    border: 1.5px #26ccff solid ;
+}
