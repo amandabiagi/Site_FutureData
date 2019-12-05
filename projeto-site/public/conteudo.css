@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ecf0f1;
+}
+html{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header {
+    top: 0px;
+    background-color: #ecf0f1;
+    width: 100%;
+    position: fixed;
+    height:17vh;   
+}
+
+header ul{
+    list-style-type:none;
+    
+}
+
+header li{
+    float: right;       
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bolder;    
+}
+
+header a{
+    float: left;
+    color:#26a8ff;
+    text-decoration: none;
+    margin-left: 130px;
+    margin-right: 60px;
+    margin-top: 20px;    
+}
+
+
+
+.logo_menu{
+    margin: 10px 0px 0px 40px;
+    position: absolute;
+    width: 100px;
+    z-index: 1;
+}
+
+
+.texto_conteudo{
+    font-size: 200px;
+    position: absolute;
+    margin-top: 50px;
+}

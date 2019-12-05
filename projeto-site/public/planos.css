@@ -94,20 +94,15 @@ header a :hover{
     margin-left: 80px;    
 }
 
-<<<<<<< HEAD
-
 .campo_basico legend{
 
     font-weight: bolder;
     font-size: 1.6rem;
 }
 .campo_basico{
-    border: 1.5px #26ff38 solid ;
-    
+    border: 1.5px #26ff38 solid ;    
 }
 
-.campo_medio legend{
-=======
 .avancado button{
   position: relative;
   top: 91px;;
@@ -149,22 +144,14 @@ header a :hover{
   .medio button:hover{
     transition: 0.2s all linear;
     top: 72px;
->>>>>>> 70b982a47dd8993c0e6dcde88c7f27c1204068cd
-
     font-weight: bolder;
     font-size: 1.6rem;
 }
-<<<<<<< HEAD
-.campo_medio{
-    border: 1.5px #ffde26 solid ;
-}
-.campo_avancado legend{
-=======
+
+
 .avancado button:hover{
     transition: 0.2s all linear;
     top: 93px;
->>>>>>> 70b982a47dd8993c0e6dcde88c7f27c1204068cd
-
     font-weight: bolder;
     font-size: 1.6rem;
 }
